@@ -1,0 +1,67 @@
+@import "tailwindcss";
+body {
+    background-color: #0a0a23;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.app
+{
+ position: absolute;
+ width: 100%;
+ top: 0;
+}
+.control
+{
+border-bottom:1px solid #b6b6c8;
+height: 60px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+}
+.control>h1
+{
+    margin-right: 50px;
+}
+.choix
+{
+    border:1px solid #b6b6c8;
+    border-radius: 50px;
+    width: 30%;
+    justify-self: center;
+    margin-top: 10px;
+    
+}
+.choix>div
+{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+
+    margin-left: 0;
+  
+}
+.contBtn,select{
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+   
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+.maze-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    justify-self: center;
+}
